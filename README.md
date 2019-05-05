@@ -1,2 +1,4 @@
 # GravityTicTacToe
-Play tic tac toe by using force of gravity
+
+A cool way to play tic tac toe game.
+Just rotate your mobile to left or right to make all blocks fall with the pull of gravity

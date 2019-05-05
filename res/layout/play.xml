@@ -1,0 +1,148 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#000000"
+    >
+    
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="156dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"        
+             >
+
+            <Button
+                android:id="@+id/b11"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text=""  
+                android:background="#000000"
+                />
+			
+            <View style="@style/VDivider"/>
+            
+            <Button
+                android:id="@+id/b12"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="" 
+                android:background="#000000"
+                 />
+
+            <View style="@style/VDivider"/>
+            
+            <Button
+                android:id="@+id/b13"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:text=""  />
+        </LinearLayout>
+        
+		<View style="@style/HDivider"/>
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" >
+
+            <Button
+                android:id="@+id/b21"
+                android:layout_width="80dp"
+                android:background="#000000"
+                android:layout_height="wrap_content"
+                android:text=""  />
+            
+            <View style="@style/VDivider"/>
+
+            <Button
+                android:id="@+id/b22"
+                android:background="#000000"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text=""  />
+            
+            <View style="@style/VDivider"/>
+
+            <Button
+                android:id="@+id/b23"
+                android:background="#000000"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text=""  />
+        </LinearLayout>
+
+        <View style="@style/HDivider"/>
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" >
+
+            <Button
+                android:id="@+id/b31"
+                android:layout_width="80dp"
+                android:background="#000000"
+                android:layout_height="wrap_content"
+                android:text=""  />
+            
+            <View style="@style/VDivider"/>
+
+            <Button
+                android:id="@+id/b32"
+                android:layout_width="80dp"
+                android:background="#000000"
+                android:layout_height="wrap_content"
+                android:text=""  />
+            
+            <View style="@style/VDivider"/>
+
+            <Button
+                android:id="@+id/b33"
+                android:layout_width="80dp"
+                android:background="#000000"
+                android:layout_height="wrap_content"
+                android:text=""  />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/startPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"
+        android:background="#000000"
+        android:gravity=""
+        android:text="Start Playing" />
+
+    <TextView
+        android:id="@+id/turn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/startPlay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="X's turn"
+        android:textColor="#ff0000"
+        android:textSize="25sp"
+         />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:text="Play w/o Gravity"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

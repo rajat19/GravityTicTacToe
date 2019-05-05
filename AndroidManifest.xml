@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gravity.tictactoe"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" >
+        <activity
+            android:name="com.gravity.tictactoe.Home"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gravity.tictactoe.Play"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.gravity.tictactoe.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="com.gravity.tictactoe.PlayDirections"
+            android:label="@string/title_activity_play_directions" >
+        </activity>
+        <activity
+            android:name="com.gravity.tictactoe.PlayGravity"
+            android:label="@string/title_activity_play_gravity" >
+        </activity>
+        <activity
+            android:name="com.gravity.tictactoe.About"
+            android:label="@string/title_activity_about" >
+        </activity>
+    </application>
+
+</manifest>
